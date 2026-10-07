@@ -1,9 +1,11 @@
 """SHIFT Commercial Advisory look: Foundation Black #000, Precision White #FFF, Pivot Gray #737373."""
 import html
 
-LOGO = ('<svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#fff"/>'
-        '<rect x="7" y="10" width="19" height="8" rx="4" fill="#000"/><rect x="14" y="22" width="19" height="8" rx="4" fill="#000"/>'
-        '<rect x="14" y="10" width="12" height="8" rx="4" fill="none" stroke="#737373" stroke-width="1.5"/></svg>')
+LOGO = ('<svg width="44" height="44" viewBox="0 0 40 40" aria-hidden="true">'
+        '<rect x="3" y="3" width="34" height="34" rx="10" fill="none" stroke="#fff" stroke-width="3.6"/>'
+        '<rect x="10" y="13.5" width="20" height="13" rx="2.2" fill="#fff"/>'
+        '<rect x="10" y="17.6" width="11" height="1.7" fill="#000"/>'
+        '<rect x="19" y="21.2" width="11" height="1.7" fill="#000"/></svg>')
 
 HEADER = f"""<div class="shift-bar"><div class="brand">{LOGO}<div><div class="wm">SHIFT</div>
 <div class="desc">COMMERCIAL ADVISORY</div></div></div><div class="tag">Strict Rules. Flexible Results</div></div>
@@ -17,8 +19,8 @@ header[data-testid="stHeader"] {background:transparent;}
 .block-container {padding-top:1rem; max-width:1100px;}
 .shift-bar {background:#000; color:#fff; padding:14px 18px; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin:0 0 18px;}
 .brand {display:flex; gap:12px; align-items:center;}
-.wm {font-weight:900; font-style:italic; font-size:1.5rem; letter-spacing:-1px; line-height:1;}
-.desc {font-size:.55rem; letter-spacing:.38em; color:#737373; margin-top:3px;}
+.wm {font-weight:900; font-style:italic; font-size:1.9rem; letter-spacing:-2px; line-height:.95;}
+.desc {font-size:.55rem; font-weight:700; letter-spacing:.42em; color:#A6A6A6; margin-top:4px;}
 .tag {font-size:.78rem; color:#fff; letter-spacing:.5px;}
 .ttl {font-weight:800; letter-spacing:-.5px; font-size:1.9rem; margin:0; padding:0;}
 .sub {color:#737373; margin:2px 0 14px;}
